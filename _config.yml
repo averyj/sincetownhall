@@ -1,33 +1,70 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
+# --------------------------------------------------
 # Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: Days since Town Hall
-email: sincetownhall@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  We track how many days it has been since your representative or senator has held an in-person town hall.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: sincetownhall
-github_username:  jekyll
+title: Since Town Hall
+description: How long has it been since your representative's last town hall?
+owner: http://github.com/averyj
+repo: sincetownhall
+branch: gh-pages
 
+# --------------------------------------------------
+# Site imagery
+favicon: /ui/img/graph/sincetownhall-favicon.png
+avatar: /ui/img/graph/sincetownhall-avatar.png
+poster: /ui/img/graph/sincetownhall-poster.jpg
+#twitter: sincetownhall
+#facebook: sincetownhall
+
+# --------------------------------------------------
+# the subpath of your site, e.g. /blog
+baseurl: "/sincetownhall"
+# css container
+namespace: sincetownhall
+
+# --------------------------------------------------
 # Build settings
-markdown: kramdown
-gems:
-  - jekyll-feed
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - Makefile
-  - README.md
+sass:
+  style: compressed
+  sass_dir: ui/_sass
+
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+  docs:
+    output: true
+    permalink: /docs/:path/
+  styles:
+    output: true
+    permalink: /styles/:path/
+  representatives:
+    output: true
+    permalink: /representatives/:path/
+  states:
+    output: true
+    permalink: /states/:path/
+
+defaults:
+-
+  scope:
+    path: ""
+    type: "pages"
+  values:
+    layout: "page"
+-
+  scope:
+    path: ""
+    type: "docs"
+  values:
+    layout: "doc"
+-
+  scope:
+    path: ""
+    type: "representatives"
+  values:
+    layout: "profile"
+-
+  scope:
+    path: ""
+    type: "states"
+  values:
+    layout: "state"
