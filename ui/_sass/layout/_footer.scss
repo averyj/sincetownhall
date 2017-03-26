@@ -1,0 +1,10 @@
+.footer {
+	padding: 30px 0;
+	.footer-content {
+		.footer-links {
+			text-align: center;
+			> ul { @include inlinelist; }
+			.btn-text { color: $light; font-style: oblique; }
+		}
+	}
+}

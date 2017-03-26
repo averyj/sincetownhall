@@ -1,0 +1,16 @@
+$section-margin: 40px;
+$section-margin-small: 0vw;
+$section-margin-base: 2vw;
+$section-margin-large: 4vw;
+
+@mixin section-margin-small() { margin-top: calc( #{$section-margin} + #{$section-margin-small} ); margin-bottom: calc( #{$section-margin} + #{$section-margin-small} ); }
+@mixin section-margin-base() { margin-top: calc( #{$section-margin} + #{$section-margin-base} ); margin-bottom: calc( #{$section-margin} + #{$section-margin-base} ); }
+@mixin section-margin-large() { margin-top: calc( #{$section-margin} + #{$section-margin-large} ); margin-bottom: calc( #{$section-margin} + #{$section-margin-large} ); }
+
+
+.section {
+	@include section-margin-base;
+	&.section-silver { background: $silver-light; }
+	&.section-small { @include section-margin-small; }
+	&.section-large { @include section-margin-large; }
+}

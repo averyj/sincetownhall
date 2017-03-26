@@ -1,0 +1,20 @@
+.badge {
+	@include labels;
+	border: 1px solid transparent;
+	padding: 5px 7px;
+	@include pill;
+	&.badge-success { background: $brand-success; color: white; }
+	&.badge-warning { background: $brand-warning; color: white; }
+	&.badge-danger { background: $brand-danger; color: white; }
+}
+
+.active {
+	.badge {
+		color: $component-active-color;
+		background: saturate(darken($component-active-bg,7%),15%);
+	}
+}
+
+.list-group-item .badge {
+	float: right;
+}

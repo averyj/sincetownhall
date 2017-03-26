@@ -1,0 +1,39 @@
+{% capture percentile %}{% include percentile.html date=include.lasthall %}{% endcapture %}
+{% assign percentile = percentile | plus: 0 %}
+
+{% assign class = '' %}
+{% if percentile < 35 %}
+	{% assign class = 'card-danger' %}
+{% endif %}
+{% if percentile > 67 %}
+	{% assign class = 'card-success' %}
+{% endif %}
+
+<a href="{{site.baseurl}}{{include.link}}" class="card {%if include.size %}card-{{include.size}}{% endif %} {{class}}">
+	<div class="card-content">
+		<div class="card-graphic" data-bg="{{site.baseurl}}{{include.avatar}}">
+			<img class="card-avatar" src="{{site.baseurl}}{{include.avatar}}" alt="{{include.name}} hasn't held a town hall in {% include diff.html date=include.lasthall %} days." />
+		</div>
+		<div class="card-details">
+			<div class="card-identity">
+				<div class="card-name">
+					<h3 class="card-text-large">
+						{{include.name}}
+						<small class="card-text-small">
+							{% case include.party %}
+								{% when 'republican' %}<span class="text-red">R</span>
+								{% when 'democrat' %}<span class="text-blue">D</span>
+								{% when 'independent' %}<span class="text-yellow">I</span>
+							{% endcase %}
+						</small>
+					</h3>
+				</div>
+				<div class="card-position"><p class="card-text-small">{{ include.type | capitalize }}, <span class="text-titlecase">{{ include.state | replace: '-',' ' | capitalize }}</span></p></div>
+			</div>
+		</div>
+		<div class="card-count">
+			<div class="card-total"><h3 class="card-text-large">{% include diff.html date=include.lasthall %}</h3></div>
+			<div class="card-unit"><p class="card-text-small">Days</p></div>
+		</div>
+	</div>
+</a>

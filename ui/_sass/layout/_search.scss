@@ -1,0 +1,23 @@
+.search {
+	.search-form {
+		.search-label {
+			label {
+				color: $light;
+				font-style: oblique;
+				margin-bottom: .5em;
+				font-weight: normal;
+			}
+			display: none;
+		}
+		.search-input {
+
+		}
+	}
+	&.search-large {
+		.search-form {
+			.search-label {
+				
+			}
+		}
+	}
+}

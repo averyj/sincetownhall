@@ -1,0 +1,6 @@
+{% assign dateStart = include.date | date: '%s' %}
+{% assign nowTimestamp = 'now' | date: '%s' %}
+{% assign diffSeconds = nowTimestamp | minus: dateStart %}
+{% assign diff = diffSeconds | divided_by: 3600 | divided_by: 24 %}
+
+{{diff}}

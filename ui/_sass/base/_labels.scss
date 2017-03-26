@@ -1,0 +1,20 @@
+.label {
+	@include labels;
+	display: inline-block;
+	border: 0;
+	background: transparent !important;
+	@include transitions;
+	&.label-default { color: $light; }
+	&.label-success { color: $green-dark; }
+	&.label-info { color: $blue-dark; }
+	&.label-warning { color: $yellow-dark; }
+	&.label-danger { color: $red-dark; }
+	padding: 6px 0;
+	text-align: inherit;
+	+ .label {
+		&:not(.block) {
+			margin-left: 1.5em;
+		}
+	}
+}
+

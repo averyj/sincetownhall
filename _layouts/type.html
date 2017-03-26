@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US" class="{{site.namespace}}">
+	<head>
+		{% include options/settings.html %}
+		{% include options/meta.html %}
+		{% include options/styles.html %}
+		{% include options/scripts.html %}
+	</head>
+	<body>
+		<header class="header">
+			{% include content/nav.html %}
+		</header>
+
+
+		<div class="summary">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<!-- <section class="section">
+							
+							<div class="search search-large">
+								<form class="search-form">
+									<div class="search-label">
+										<label>When was the last town hall by...</label>
+									</div>
+									<div class="search-input">
+										<div class="input-group">
+											<input type="text" class="form-control" placeholder="Find Your Representative..." />
+											<span class="input-group-btn">
+												<button type="submit" class="btn btn-default btn-icon text-light" ><i data-icon="search" class="md" data-toggle="tooltip" title="search" data-placement="right"></i></button>
+											</span>
+										</div>
+									</div>
+								</form>
+							</div>
+
+						</section> -->
+						<section class="section">
+
+							<div class="text-center compact-margins">
+								<h1>{{page.title}} Town Halls</h1>
+								{% if page.type == 'senator' %}
+									<p class="text-light text-italic text-large">When was the last town hall for our US Senators? Click a representative to learn more...</p>
+								{% endif %}
+								{% if page.type == 'representative' %}
+									<p class="text-light text-italic text-large">When was the last town hall for our US House Representatives? Click a representative to learn more...</p>
+								{% endif %}
+							</div>
+
+						</section>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<section class="section">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="text-center">
+							{% assign reps = site.representatives | where: 'type',page.type | sort: 'lasthall' %}
+							{% capture repcount %}{{ reps | size }}{% endcapture %}
+
+							<div class="cards">
+								{% for rep in reps %}
+									{% include card.html 
+										 name=rep.name
+										 avatar=rep.avatar
+										 party=rep.party
+										 state=rep.state
+										 type=rep.type
+										 lasthall=rep.lasthall
+										 link=rep.url
+									%}
+								{% endfor %}
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+
+		{% include content/footer.html %}
+	</body>
+</html>

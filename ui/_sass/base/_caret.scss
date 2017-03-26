@@ -1,0 +1,12 @@
+.caret {
+	margin-left: .25em;
+	border-top-width: 6px;
+	&.caret-right { @include transform(rotate(-90deg)); }
+	&.caret-left { @include transform(rotate(90deg)); }
+}
+
+.btn .caret {
+	margin-top: -3px;
+	margin-left: .5em;
+}
+

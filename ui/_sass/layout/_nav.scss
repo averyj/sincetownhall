@@ -1,0 +1,42 @@
+$navheight: 80px;
+
+.navigation {
+	background: white;
+	position: absolute;
+	top: $navheight*-1;
+	.page-scrolling & {
+		box-shadow: 0 0 5px rgba(0,0,0,.1), 0 0 0 1px rgba(0,0,0,.03);
+		position: fixed;
+		top: 0;
+	}
+	width: 100%;
+	z-index: 10;
+	.navigation-content {
+		@include table(middle);
+		height: $navheight;
+		.navigation-brand {
+			color: $light;
+			#{h()} { font-weight: normal; top: -2px; }
+			white-space: nowrap;
+			width: 1px;
+			.navigation-brand-link {
+				display: block;
+				text-decoration: none;
+				color: $light !important;
+			}
+		}
+		.navigation-links,
+		.navigation-menu {
+			padding-left: 1.5em;
+			> ul { @include inlinelist; }
+			&.navigation-links-right { text-align: right; }
+			.btn-text { font-style: oblique; color: $light; }
+			.btn-icon { padding-right: 0 !important; }
+		}
+		.navigation-menu { text-align: right; }
+		@include small { .navigation-links { display: none; } }
+		@include large { .navigation-menu { display: none; } }
+	}
+}
+
+body { padding-top: 80px; }

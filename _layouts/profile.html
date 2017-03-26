@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US" class="{{site.namespace}}">
+	<head>
+		{% include options/settings.html %}
+		{% include options/meta.html %}
+		{% include options/styles.html %}
+		{% include options/scripts.html %}
+	</head>
+	<body>
+		<header class="header">
+			{% include content/nav.html %}
+		</header>
+		
+
+		{% capture diff %}{% include diff.html date=page.lasthall %}{% endcapture %}
+		{% capture percentile %}{% include percentile.html date=page.lasthall %}{% endcapture %}
+		{% assign percentile = percentile | plus: 0 %}
+		{% if percentile < 50 %}
+			{% assign position = 'bottom' %}
+		{% else %}
+			{% assign position = 'top' %}
+			{% assign percentile = 100 | minus: percentile | plus: 1 %}
+
+		{% endif %}
+
+
+
+		<div class="summary">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+				
+						<section class="section">
+
+							<div class="text-center compact-margins">
+								{% if position == 'bottom' %}
+									<h1 class="h2">{{page.name}} hasn't held a town hall in {{diff}} days.</h1>
+								{% else %}
+									<h1 class="h2">{{page.name}} held a town hall {{diff}} days ago.</h1>
+								{% endif %}
+								<p class="text-light text-italic text-large">That's in the {{position}} {{percentile}}% of the US Congress. <span data-large>Tell {{page.name}} what you think...</span></p>
+							</div>
+
+						</section>
+						<section class="section">
+
+							<div class="text-center">
+
+								{% include card.html 
+									 size="large"
+									 name=page.name
+									 avatar=page.avatar
+									 party=page.party
+									 state=page.state
+									 type=page.type
+									 lasthall=page.lasthall
+								%}
+
+							</div>
+
+						</section>
+						
+						<section class="section">
+
+							<div class="text-center">
+								<p class="text-italic text-large text-light" data-small>Tell {{page.name}} what you think...</p>
+								<div class="btn-group">
+									{% if page.phone %}<a class="btn btn-green btn-icon-sm btn-sm" href="tel:+1{{page.phone | replace: '-',''}}"><i data-icon="phone"></i><span data-large>{{page.phone}}</span></a>{% endif %}
+									{% if page.twitter %}<a class="btn btn-blue btn-icon-sm btn-sm" href="https://twitter.com/{{page.twitter}}"><i data-icon="twitter"></i><span data-large>@{{page.twitter}}</span></a>{% endif %}
+									{% if page.facebook %}<a class="btn btn-navy btn-icon-sm btn-sm" href="https://facebook.com/{{page.facebook}}"><i data-icon="facebook-squared"></i><span data-large>{{page.name}}</span></a>{% endif %}
+								</div>
+								<div>
+									<a class="text-titlecase btn btn-link text-italic" href="{{site.baseurl}}/states/{{page.state | replace: ' ','-' }}">{{page.state}}</a>
+									{% if page.type == 'senator' %}
+										<a class="text-titlecase btn btn-link text-italic" href="{{site.baseurl}}/senate">All Senators</a>
+									{% else %}
+										<a class="text-titlecase btn btn-link text-italic" href="{{site.baseurl}}/house">All House Members</a>
+									{% endif %}
+								</div>
+							</div>
+
+						</section>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<section class="section">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="text-center">
+
+							{% if position == 'bottom' %}
+								{% assign reps = site.representatives | sort: 'lasthall' | where_exp: "rep", "rep.lasthall < page.lasthall" | limit: 20 %}
+							{% else %}
+								{% assign reps = site.representatives | sort: 'lasthall' | where_exp: "rep", "rep.lasthall > page.lasthall" | reverse | limit: 20 %}
+							{% endif %}
+							{% capture repcount %}{{ reps | size }}{% endcapture %}
+
+
+							{% if repcount == "0" %}
+								<div class="compact-margins">
+									{% if position == 'bottom' %}
+										<h4>That's actually the longest any US Congressperson has gone without a town hall.</h4>
+										<p class="text-light text-italic">We seriously can't find anyone who's gone longer...</p>
+									{% else %}
+										<h4>That's actually the most recent town hall we have on record.</h4>
+										<p class="text-light text-italic">We seriously can't find a more recent one...</p>
+									{% endif %}
+								</div>
+							{% else %}
+								{% if position == 'bottom' %}
+									<h4>Yeah, it's been a while, but not as long as...</h4>
+								{% else %}
+									<h4>That's great, but these representatives were even more on the ball...</h4>
+								{% endif %}
+								<hr/>
+								<div class="cards">
+									{% for rep in reps %}
+										{% include card.html 
+											 name=rep.name
+											 avatar=rep.avatar
+											 party=rep.party
+											 state=rep.state
+											 type=rep.type
+											 lasthall=rep.lasthall
+											 link=rep.url
+										%}
+									{% endfor %}
+								</div>
+							{% endif %}
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		{% include content/footer.html %}
+	</body>
+</html>

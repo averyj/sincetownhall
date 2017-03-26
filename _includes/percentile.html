@@ -1,0 +1,12 @@
+{% assign reps = site.representatives | sort: 'lasthall' %}
+{% capture total %}{{ reps | size }}{% endcapture %}
+{% assign count = 0 %}
+
+{% for rep in reps %}
+	{% assign count = count | plus: 1 %}
+	{% if rep.lasthall == include.date %}
+		{% break %}
+	{% endif %}
+{% endfor %}
+
+{{ count | times: 100 | divided_by: total }}

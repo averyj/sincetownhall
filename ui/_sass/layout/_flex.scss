@@ -1,0 +1,23 @@
+$flex-buffer: 8px;
+
+.flex {
+	margin: 0 $flex-buffer*-1;
+	.flex-row {
+		@include flex;
+		@include flex-justify;
+		@include flex-wrap;
+	}
+	.flex-item {
+		@include flex-weight(1);
+		.flex-item-content { padding: $flex-buffer; }
+		.form-group { margin: 0; }
+		@for $i from 1 through 12 {
+			&.flex-#{$i} { @include flex-weight($i); }
+		}
+	}
+}
+
+.flex-xs .flex-item { min-width: 120px; }
+.flex-sm .flex-item { min-width: 220px; }
+.flex-md .flex-item { min-width: 320px; }
+.flex-lg .flex-item { min-width: 420px; }

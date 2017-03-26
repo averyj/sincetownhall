@@ -1,0 +1,12 @@
+.panel {
+	margin: 2em 0;
+	border-width: 0;
+	@include standard-box-shadow;
+	#{h(1,2)} { &.panel-title { @include font-size-largest; } }
+	#{h(3,4)} { &.panel-title { @include font-size-larger; } }
+	#{h(5,6)} { &.panel-title { @include font-size-base; } }
+	.panel-body {
+		padding-top: ( $panel-body-padding - 5 );
+		padding-bottom: ( $panel-body-padding - 7 );
+	}
+}

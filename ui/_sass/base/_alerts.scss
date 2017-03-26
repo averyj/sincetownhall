@@ -1,0 +1,28 @@
+@mixin alert-code($class,$bg) {
+	&.alert-#{$class} {
+		code, pre { background: darken($bg,5%); }
+	}
+}
+
+.alert {
+	padding: $padding-base-vertical $padding-base-horizontal;
+	font-style: oblique;
+	margin-bottom: 12px;
+	strong {
+		color: inherit;
+		font-style: normal;
+	}
+	code, pre {
+		//display: block;
+		background: transparent;
+		//padding: 0;//$padding-base-vertical $padding-base-horizontal;
+		//margin: 0; //$padding-base-vertical 0;
+		color: inherit;
+	}
+	@include alert-code('danger',$state-danger-bg);
+	@include alert-code('warning',$state-warning-bg);
+	@include alert-code('success',$state-success-bg);
+	@include alert-code('info',$state-info-bg);
+
+
+}

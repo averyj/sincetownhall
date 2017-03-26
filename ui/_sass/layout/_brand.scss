@@ -1,0 +1,12 @@
+.brand {
+	font-weight: normal;
+	color: $light;
+	b {
+		font-weight: bold;
+		color: $blue;
+		i {
+			color: $red;
+			font-style: normal;
+		}
+	}
+}

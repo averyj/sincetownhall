@@ -1,0 +1,5 @@
+.well {
+	padding: $padding-base-vertical $padding-base-horizontal;
+	@include trim;
+	box-shadow: none;
+}

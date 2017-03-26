@@ -1,0 +1,16 @@
+img {
+	max-width: 100%;
+	display: block;
+	box-shadow: none;
+	&:hover {
+		box-shadow: none;
+	}
+}
+
+.object {
+	@include object;
+}
+
+a.object, a .object, .object-hover {
+	@include object-hover;
+}

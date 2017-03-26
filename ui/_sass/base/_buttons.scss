@@ -1,0 +1,161 @@
+.btn {
+
+	&.btn-red { @include button-variant(white,$red,$red); }
+	&.btn-blue { @include button-variant(white,$blue,$blue); }
+	&.btn-navy { @include button-variant(white,$navy,$navy); }
+	&.btn-green { @include button-variant(white,$green,$green); }
+	&.btn-orange { @include button-variant(white,$orange,$orange); }
+	&.btn-yellow { @include button-variant(white,$yellow,$yellow); }
+
+
+	@include transitions(.25s);
+	//border-radius: 100px;
+	text-shadow: none;
+	line-height: 1.6 !important;
+	&:not(.btn-sm):not(.btn-lg){
+		//padding-top: ($padding-base-vertical - 1);
+		height: $input-height-base;
+	}
+	&.btn-icon {
+		padding-left: 1em;
+		padding-right: 1em;
+		&.btn-sm {
+			padding-left: 0;
+			padding-right: 0;
+		}
+	}
+	&.btn-icon-sm {
+		@include small{
+			padding-left: ( $padding-base-vertical + 2 );
+			padding-right: ( $padding-base-vertical + 2 );
+			[data-icon] { margin-right: 0; margin-left: 0; }
+		}
+	}
+	&.btn-caret {
+		padding-left: ( $padding-base-vertical - 1 );
+		padding-right: ( $padding-base-vertical - 1 );
+	}
+
+	&:not(.btn-icon) {
+		[data-icon] {
+			&:not(.icon-end) { margin-right: .375em; }
+			&.icon-end { margin-right: -5px; }
+		}
+	}
+	+ .btn { margin-left: .5em; }
+	&:not(.btn-link):not(.btn-text) { font-weight: bold; }
+	&.btn-bold { font-weight: bold; }
+	&:active,
+	&.active {
+		@include box-shadow(none);
+	}
+	&[disabled],
+	&.disabled {
+		opacity: .375;
+	}
+	.table & {
+		margin-top: -3px;
+		margin-bottom: -2px;
+	}
+	&.btn-lg {
+		height: $input-height-large;
+		//padding-top: ($padding-large-vertical - 2);
+	}
+	background-repeat: repeat;
+	background-position: 50% -1px;
+	background-size: 105% 200%;
+	&[class*="btn-outline"] {
+		border-color: transparentize($dark,.5);
+		background: transparent !important;
+		//font-weight: normal;
+		&:hover, &:focus { border-color: $dark; }
+		&.btn-outline-light { color: $light; border-color: transparentize($light,.5); &:hover, &:focus { border-color: $light; } }
+		&.btn-outline-red { color: $red; border-color: transparentize($red,.5); &:hover, &:focus { border-color: $red; } }
+		&.btn-outline-orange { color: $orange; border-color: transparentize($orange,.5); &:hover, &:focus { border-color: $orange; } }
+		&.btn-outline-yellow { color: $yellow; border-color: transparentize($yellow,.5); &:hover, &:focus { border-color: $yellow; } }
+		&.btn-outline-green { color: $green; border-color: transparentize($green,.5); &:hover, &:focus { border-color: $green; } }
+		&.btn-outline-blue { color: $blue; border-color: transparentize($blue,.5); &:hover, &:focus { border-color: $blue; } }
+	}
+	
+	&:hover, &:focus { background-position: 50% 95%; }
+	// &.btn-primary {
+	// 	background-color: $green;
+	// 	//@include gradient(adjust-hue($green,-15deg),adjust-hue($green,15deg),60deg);
+	// }
+	// &.btn-warning {
+	// 	background-color: $yellow;
+	// 	//@include gradient(adjust-hue($yellow,4deg),adjust-hue($yellow,-4deg),60deg);
+
+	// }
+	// &.btn-danger {
+	// 	background-color: $red;
+	// 	//@include gradient(adjust-hue($red,8deg),adjust-hue($red,-8deg),60deg);
+	// }
+	// &.btn-info {
+	// 	background-color: $blue;
+	// 	//@include gradient(adjust-hue($blue,-6deg),adjust-hue($blue,6deg),60deg);
+	// }
+	&.btn-block {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	&.btn-default {
+		font-weight: normal;
+		display: inline-block;
+		border-color: transparent;
+		box-shadow: none !important;
+		&:hover, &:focus { background-color: $silver-dark; }
+
+	}
+	&.btn-sm {
+		height: $input-height-small;
+	}
+	&.btn-slim {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+}
+
+[data-size="small"] {
+	.btn {
+		display: block;
+	}
+}
+
+.btn-link {
+	//font-style: oblique;
+	padding-left: 5px !important;
+	padding-right: 5px !important;
+}
+
+.btn-text {
+	background: transparent;
+	font-weight: normal;
+	padding-left: $padding-base-horizontal/2 !important;
+	padding-right: $padding-base-horizontal/2 !important;
+	color: $normal;
+	strong {
+		font-weight: inherit;
+		color: $dark;
+	}
+}
+
+.btn-file {
+	&:before { content: attr(data-placeholder); }
+	&:after { content: attr(data-value); }
+	cursor: pointer;
+	input {
+		position: absolute;
+		opacity: .01;
+	}
+}
+
+
+table.table-hover {
+	tr:hover {
+		.btn-default {
+			//background-color: $btn-default-bg-hover;
+		}
+	}
+}
+

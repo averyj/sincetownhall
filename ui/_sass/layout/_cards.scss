@@ -1,0 +1,132 @@
+@mixin mark-card($color,$state){
+	.card-count {
+		&:before {
+			content: '';
+			display: block;
+			position: absolute;
+			top: -100%;
+			left: 0;
+			width: 300%;
+			height: 300%;
+			background: $color;
+			@include transform(rotate(15deg),(0 40%));
+			@include media-mini{ display: none; }
+		}
+		&, * {
+			color: white;
+			@include media-mini{ color: $color; }
+		}
+		.card-unit {
+			opacity: 1;
+		}
+	}
+	&:not(.card-large) {
+		.card-count {
+			&, * { color: $color; }
+			&:before { background: $state; }
+		}
+	}
+}
+
+.card {
+	display: block;
+	text-align: left;
+	&[href] {
+		text-decoration: none;
+		color: $normal;
+		.card-content {
+			@include transitions(.25s);
+			&:hover {
+				@include transform(perspective(1px) scale(1.04));
+			}
+			
+		}
+	}
+	.card-text-large { @include font-size-large; }
+	.card-text-small { @include font-size-base; }
+	@include media-phone{
+		.card-text-large { @include font-size-base; }
+		.card-text-small { @include font-size-small; }
+	}
+	margin: auto;
+	.card-content {
+		box-shadow: $dropdown-shadow;
+		border-radius: $border-radius-base;
+		background: white;
+		overflow: hidden;
+		@include table(top);
+		.card-graphic {
+			border-radius: $border-radius-base 0 0 $border-radius-base;
+			background: transparent no-repeat 50% 12.5% / cover;
+			width: 20%;
+			min-width: 60px;
+			img {
+				display: block;
+				&.card-avatar {
+					@include fill;
+					opacity: 0;
+				}
+			}
+		}
+		.card-details {
+			border-radius: 0 $border-radius-base $border-radius-base 0;
+			padding: 6% 1% 6% 8%;
+			@include small { padding: 4% 2% 4% 6%; }
+			
+			.card-identity {
+				z-index: 2;
+				.card-name {
+
+				}
+				.card-position {
+					&, * {
+						color: $light;
+						font-style: oblique;
+					}
+				}
+			}
+		}
+		.card-count {
+			padding: 6% 8% 6% 1%;
+			@include small { padding: 4% 6% 4% 2%; }
+			
+			text-align: right;
+			.card-total {
+
+			}
+			.card-unit {
+				opacity: .5;
+			}
+		}
+	}
+	&.card-large {
+		max-width: 880px;
+		@include large{
+			.card-text-large { @include font-size-larger; }
+			.card-text-small { @include font-size-large; }
+		}
+	}
+	&.card-danger {
+		@include mark-card($red,$state-danger-bg);
+	}
+	&.card-success {
+		@include mark-card($green,$state-success-bg);
+	}
+}
+
+
+.cards {
+	font-size: 0;
+	margin: 0 -15px;
+	.card {
+		display: inline-block;
+		margin: 0;
+		padding: 15px;
+		width: percentage(1/2);
+		@include font-size-base;
+		@include small(){
+			width: 100%;
+		}
+	}
+
+}
