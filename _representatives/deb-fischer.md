@@ -5,7 +5,7 @@ avatar: /ui/img/avatars/Deb_Fischer.jpg
 party: republican
 state: nebraska
 type: senator
-lasthall: Never
+lasthall: 2010-01-01
 phone: 
 twitter: SenatorFischer
 ---

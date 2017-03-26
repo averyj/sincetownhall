@@ -5,7 +5,7 @@ avatar: /ui/img/avatars/Patrick_Leahy.jpg
 party: democratic
 state: vermont
 type: senator
-lasthall: Never
+lasthall: 2010-01-01
 phone: 
 twitter: SenatorLeahy
 ---

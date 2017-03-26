@@ -5,7 +5,7 @@ avatar: /ui/img/avatars/Bill_Nelson.jpg
 party: democratic
 state: florida
 type: senator
-lasthall: Never
+lasthall: 2010-01-01
 phone: 
 twitter: SenBillNelson
 ---

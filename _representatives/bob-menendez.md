@@ -5,7 +5,7 @@ avatar: /ui/img/avatars/Bob_Menendez.jpg
 party: democratic
 state: new jersey
 type: senator
-lasthall: Never
+lasthall: 2010-01-01
 phone: 
 twitter: SenatorMenendez
 ---

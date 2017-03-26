@@ -5,7 +5,7 @@ avatar: /ui/img/avatars/Kamala_Harris.jpg
 party: democratic
 state: california
 type: senator
-lasthall: Never
+lasthall: 2010-01-01
 phone: 
 twitter: 
 ---

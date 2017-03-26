@@ -5,7 +5,7 @@ avatar: /ui/img/avatars/Jim_Risch.jpg
 party: republican
 state: idaho
 type: senator
-lasthall: Never
+lasthall: 2010-01-01
 phone: 
 twitter: SenatorRisch
 ---

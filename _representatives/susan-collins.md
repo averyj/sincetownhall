@@ -5,7 +5,7 @@ avatar: /ui/img/avatars/Susan_Collins.jpg
 party: republican
 state: maine
 type: senator
-lasthall: Never
+lasthall: 2010-01-01
 phone: 
 twitter: susancollins
 ---

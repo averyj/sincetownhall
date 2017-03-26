@@ -5,7 +5,7 @@ avatar: /ui/img/avatars/Mike_Rounds.jpg
 party: republican
 state: south dakota
 type: senator
-lasthall: Never
+lasthall: 2010-01-01
 phone: 
 twitter: 
 ---

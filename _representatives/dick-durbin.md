@@ -5,7 +5,7 @@ avatar: /ui/img/avatars/Dick_Durbin.jpg
 party: democratic
 state: illinois
 type: senator
-lasthall: Never
+lasthall: 2010-01-01
 phone: 
 twitter: SenatorDurbin
 ---

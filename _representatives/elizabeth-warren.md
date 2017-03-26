@@ -5,7 +5,7 @@ avatar: /ui/img/avatars/Elizabeth_Warren.jpg
 party: democratic
 state: massachusetts
 type: senator
-lasthall: Never
+lasthall: 2010-01-01
 phone: 
 twitter: SenWarren
 ---

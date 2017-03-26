@@ -5,7 +5,7 @@ avatar: /ui/img/avatars/David_Perdue.jpg
 party: republican
 state: georgia
 type: senator
-lasthall: Never
+lasthall: 2010-01-01
 phone: 
 twitter: 
 ---
