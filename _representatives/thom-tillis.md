@@ -1,12 +1,11 @@
 ---
-title:  Thom Tillis, North Carolina Senator
+title: Thom Tillis, North Carolina Senator
 name: Thom Tillis
-avatar: /ui/img/avatars/tillis.jpg
+avatar: /ui/img/avatars/Thom_Tillis.jpg
 party: republican
-state: north-carolina
+state: north carolina
 type: senator
-lasthall: 2016-05-07
-phone: 919-555-5555
+lasthall: 2012-01-29
+phone: 
 twitter: ThomTillis
-facebook: SenatorThomTillis
 ---

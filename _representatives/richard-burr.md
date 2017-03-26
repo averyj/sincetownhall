@@ -1,12 +1,11 @@
 ---
-title:  Richard Burr, North Carolina Senator
+title: Richard Burr, North Carolina Senator
 name: Richard Burr
-avatar: /ui/img/avatars/burr.jpg
+avatar: /ui/img/avatars/Richard_Burr.jpg
 party: republican
-state: north-carolina
+state: north carolina
 type: senator
-lasthall: 2016-01-07
-phone: 919-555-5555
-twitter: richardburr
-facebook: richardburr
+lasthall: 2010-03-30
+phone: 
+twitter: SenatorBurr
 ---
