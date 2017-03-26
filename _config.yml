@@ -16,9 +16,16 @@ poster: /ui/img/graph/sincetownhall-poster.jpg
 
 # --------------------------------------------------
 # the subpath of your site, e.g. /blog
-baseurl: "/sincetownhall"
+baseurl: ""
 # css container
 namespace: sincetownhall
+
+exclude: 
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE.txt
+  - Makefile
+  - README.md
 
 # --------------------------------------------------
 # Build settings
