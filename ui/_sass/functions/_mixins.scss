@@ -48,6 +48,7 @@ html .serverbid, html.serverbid body { @include font-size-base; }
   @if $dir { text-align: $dir; }
   > li {
     display: inline-block;
+    veritcal-align: middle;
     @if $dir == 'left' { margin-right: 1.5em; }
     @if $dir == 'right' { margin-left: 1.5em; }
     @if $dir == 'center' { margin-right: .75em; margin-left: .75em; }

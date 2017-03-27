@@ -3,8 +3,14 @@
 	.footer-content {
 		.footer-links {
 			text-align: center;
+			margin-bottom: 20px;
 			> ul { @include inlinelist; }
 			.btn-text { color: $light; font-style: oblique; }
+		}
+		.footer-sharing {
+			.sharethis-inline-share-buttons {
+				text-align: center !important;
+			}
 		}
 	}
 }

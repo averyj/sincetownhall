@@ -36,6 +36,8 @@ $query_large_device: "min-device-width: " ($tablet + 1px);
 
 @include small(){ [data-large] { display: none !important; } }
 @include large(){ [data-small] { display: none !important; } }
+@include media-mini(){ [data-not-mini] { display: none !important; } }
+@include media-phone(){ [data-not-phone] { display: none !important; } }
 
 @include screen(){ [data-print] { display: none !important; } }
 @include print(){ [data-screen] { display: none !important; } }
