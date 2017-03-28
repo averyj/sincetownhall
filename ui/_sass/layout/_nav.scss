@@ -25,17 +25,14 @@ $navheight: 80px;
 				color: $light !important;
 			}
 		}
-		.navigation-links,
-		.navigation-menu {
-			padding-left: 1.5em;
+		.navigation-links {
+			padding-left: 1em;
+			text-align: right;
 			> ul { @include inlinelist; }
-			&.navigation-links-right { text-align: right; }
 			.btn-text { font-style: oblique; color: $light; }
 			.btn-icon { padding-right: 0 !important; }
 		}
 		.navigation-menu { text-align: right; }
-		@include small { .navigation-links { display: none; } }
-		@include large { .navigation-menu { display: none; } }
 	}
 }
 
