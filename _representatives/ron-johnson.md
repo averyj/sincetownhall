@@ -6,6 +6,7 @@ party: republican
 state: wisconsin
 type: senator
 lasthall: 2016-03-25
-phone: 
+phone: (202) 224-5323
+never: 
 twitter: SenatorIsakson
 ---

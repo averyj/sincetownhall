@@ -6,6 +6,7 @@ party: republican
 state: utah
 type: senator
 lasthall: 2015-09-02
-phone: 
+phone: (202) 224-5444
+never: 
 twitter: SenMikeLee
 ---

@@ -6,6 +6,7 @@ party: republican
 state: tennessee
 type: senator
 lasthall: 2010-11-11
-phone: 
+phone: (202) 224-3344
+never: 
 twitter: SenBobCorker
 ---

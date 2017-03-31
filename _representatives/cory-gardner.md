@@ -6,6 +6,7 @@ party: republican
 state: colorado
 type: senator
 lasthall: 2016-03-28
-phone: 
+phone: (202) 224-5941
+never: 
 twitter: repcorygardner
 ---

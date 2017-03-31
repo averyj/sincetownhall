@@ -6,6 +6,7 @@ party: republican
 state: kentucky
 type: senator
 lasthall: 2016-09-16
-phone: 
+phone: (202) 224-4343
+never: 
 twitter: SenRandPaul
 ---

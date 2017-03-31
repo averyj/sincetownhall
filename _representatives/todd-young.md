@@ -6,6 +6,7 @@ party: republican
 state: indiana
 type: senator
 lasthall: 2016-04-23
-phone: 
+phone: (202) 224-5623
+never: 
 twitter: RepToddYoung
 ---

@@ -6,6 +6,7 @@ party: republican
 state: kentucky
 type: senator
 lasthall: 2017-02-21
-phone: 
+phone: (202) 224-2541
+never: 
 twitter: SenateMajLdr
 ---

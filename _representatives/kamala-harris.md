@@ -2,10 +2,11 @@
 title: Kamala Harris, California Senator
 name: Kamala Harris
 avatar: /ui/img/avatars/Kamala_Harris.jpg
-party: democratic
+party: democrat
 state: california
 type: senator
-lasthall: 2010-01-01
-phone: 
-twitter: 
+lasthall: 2017-01-03
+phone: (202) 224-3553
+never: TRUE
+twitter: SenKamalaHarris
 ---

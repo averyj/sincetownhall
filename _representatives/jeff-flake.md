@@ -6,6 +6,7 @@ party: republican
 state: arizona
 type: senator
 lasthall: 2016-08-31
-phone: 
+phone: (202) 224-4521
+never: 
 twitter: JeffFlake
 ---

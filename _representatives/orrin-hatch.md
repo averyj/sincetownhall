@@ -6,6 +6,7 @@ party: republican
 state: utah
 type: senator
 lasthall: 2017-02-23
-phone: 
+phone: (202) 224-5251
+never: 
 twitter: SenOrrinHatch
 ---

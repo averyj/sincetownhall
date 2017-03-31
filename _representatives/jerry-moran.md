@@ -6,6 +6,7 @@ party: republican
 state: kansas
 type: senator
 lasthall: 2016-05-28
-phone: 
+phone: (202) 224-6521
+never: 
 twitter: JerryMoran
 ---

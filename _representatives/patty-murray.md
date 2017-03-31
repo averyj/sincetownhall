@@ -2,10 +2,11 @@
 title: Patty Murray, Washington Senator
 name: Patty Murray
 avatar: /ui/img/avatars/Patty_Murray.jpg
-party: democratic
+party: democrat
 state: washington
 type: senator
-lasthall: 2010-01-01
-phone: 
+lasthall: 1993-01-05
+phone: (202) 224-2621
+never: TRUE
 twitter: PattyMurray
 ---

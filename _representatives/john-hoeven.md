@@ -5,7 +5,8 @@ avatar: /ui/img/avatars/John_Hoeven.jpg
 party: republican
 state: north dakota
 type: senator
-lasthall: 2010-01-01
-phone: 
+lasthall: 2011-01-05
+phone: (202) 224-2551
+never: TRUE
 twitter: SenJohnHoeven
 ---

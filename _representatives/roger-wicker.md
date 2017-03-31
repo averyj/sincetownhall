@@ -6,6 +6,7 @@ party: republican
 state: mississippi
 type: senator
 lasthall: 2009-08-25
-phone: 
+phone: (202) 224-6253
+never: 
 twitter: SenatorWicker
 ---

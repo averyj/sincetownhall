@@ -6,6 +6,7 @@ party: republican
 state: alaska
 type: senator
 lasthall: 2012-02-18
-phone: 
+phone: (202) 224-6665
+never: 
 twitter: lisamurkowski
 ---

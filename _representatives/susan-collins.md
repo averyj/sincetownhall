@@ -5,7 +5,8 @@ avatar: /ui/img/avatars/Susan_Collins.jpg
 party: republican
 state: maine
 type: senator
-lasthall: 2010-01-01
-phone: 
+lasthall: 1997-01-07
+phone: (202) 224-2523
+never: TRUE
 twitter: susancollins
 ---

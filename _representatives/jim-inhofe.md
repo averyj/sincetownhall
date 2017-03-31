@@ -6,6 +6,7 @@ party: republican
 state: oklahoma
 type: senator
 lasthall: 2016-10-03
-phone: 
+phone: (202) 224-4721
+never: 
 twitter: ChrisVanHollen
 ---

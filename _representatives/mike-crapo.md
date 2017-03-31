@@ -6,6 +6,7 @@ party: republican
 state: idaho
 type: senator
 lasthall: 2016-08-22
-phone: 
+phone: (202) 224-6142
+never: 
 twitter: MikeCrapo
 ---

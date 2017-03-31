@@ -6,6 +6,7 @@ party: republican
 state: oklahoma
 type: senator
 lasthall: 2015-11-20
-phone: 
+phone: (202) 224-5754
+never: 
 twitter: SenatorLankford
 ---

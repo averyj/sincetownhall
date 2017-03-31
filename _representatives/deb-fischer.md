@@ -5,7 +5,8 @@ avatar: /ui/img/avatars/Deb_Fischer.jpg
 party: republican
 state: nebraska
 type: senator
-lasthall: 2010-01-01
-phone: 
+lasthall: 2013-01-03
+phone: (202) 224-6551
+never: TRUE
 twitter: SenatorFischer
 ---

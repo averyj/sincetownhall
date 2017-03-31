@@ -6,6 +6,7 @@ party: republican
 state: north carolina
 type: senator
 lasthall: 2012-01-29
-phone: 
+phone: (202) 224-6342
+never: 
 twitter: ThomTillis
 ---

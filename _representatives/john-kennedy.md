@@ -6,6 +6,7 @@ party: republican
 state: louisiana
 type: senator
 lasthall: 2017-02-11
-phone: 
+phone: (202) 224-4623
+never: 
 twitter: timkaine
 ---

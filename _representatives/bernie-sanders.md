@@ -6,6 +6,7 @@ party: independent
 state: vermont
 type: senator
 lasthall: 2015-08-23
-phone: 
+phone: (202) 224-5141
+never: 
 twitter: SenatorSanders
 ---

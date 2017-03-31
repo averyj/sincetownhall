@@ -2,10 +2,11 @@
 title: Patrick Leahy, Vermont Senator
 name: Patrick Leahy
 avatar: /ui/img/avatars/Patrick_Leahy.jpg
-party: democratic
+party: democrat
 state: vermont
 type: senator
-lasthall: 2010-01-01
-phone: 
+lasthall: 2017-03-25
+phone: (202) 224-4242
+never: 
 twitter: SenatorLeahy
 ---

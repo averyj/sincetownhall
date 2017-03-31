@@ -6,6 +6,7 @@ party: republican
 state: missouri
 type: senator
 lasthall: 2015-08-13
-phone: 
+phone: (202) 224-5721
+never: 
 twitter: RoyBlunt
 ---

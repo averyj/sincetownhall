@@ -6,6 +6,7 @@ party: independent
 state: maine
 type: senator
 lasthall: 2017-03-05
-phone: 
+phone: (202) 224-5344
+never: 
 twitter: SenAngusKing
 ---

@@ -5,7 +5,8 @@ avatar: /ui/img/avatars/Luther_Strange.jpg
 party: republican
 state: alabama
 type: senator
-lasthall: 2010-01-01
-phone: 
-twitter: 
+lasthall: 2017-02-09
+phone: (202) 224-4124
+never: TRUE
+twitter: SenatorStrange
 ---

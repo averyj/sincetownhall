@@ -6,6 +6,7 @@ party: republican
 state: iowa
 type: senator
 lasthall: 2017-02-21
-phone: 
+phone: (202) 224-3254
+never: 
 twitter: joniernst
 ---

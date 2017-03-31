@@ -6,6 +6,7 @@ party: republican
 state: alabama
 type: senator
 lasthall: 2013-03-18
-phone: 
+phone: (202) 224-5744
+never: 
 twitter: SenShelby
 ---

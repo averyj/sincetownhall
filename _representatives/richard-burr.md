@@ -6,6 +6,7 @@ party: republican
 state: north carolina
 type: senator
 lasthall: 2010-03-30
-phone: 
+phone: (202) 224-3154
+never: 
 twitter: SenatorBurr
 ---

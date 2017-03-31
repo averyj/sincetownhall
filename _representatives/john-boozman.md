@@ -6,6 +6,7 @@ party: republican
 state: arkansas
 type: senator
 lasthall: 2009-09-18
-phone: 
+phone: (202) 224-4843
+never: 
 twitter: JohnBoozman
 ---

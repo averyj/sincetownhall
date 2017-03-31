@@ -2,10 +2,11 @@
 title: Dick Durbin, Illinois Senator
 name: Dick Durbin
 avatar: /ui/img/avatars/Dick_Durbin.jpg
-party: democratic
+party: democrat
 state: illinois
 type: senator
-lasthall: 2010-01-01
-phone: 
+lasthall: 1997-01-07
+phone: (202) 224-2152
+never: TRUE
 twitter: SenatorDurbin
 ---

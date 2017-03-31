@@ -6,6 +6,7 @@ party: republican
 state: wyoming
 type: senator
 lasthall: 2003-02-19
-phone: 
+phone: (202) 224-6441
+never: 
 twitter: SenJohnBarrasso
 ---

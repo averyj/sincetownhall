@@ -2,10 +2,11 @@
 title: Maria Cantwell, Washington Senator
 name: Maria Cantwell
 avatar: /ui/img/avatars/Maria_Cantwell.jpg
-party: democratic
+party: democrat
 state: washington
 type: senator
 lasthall: 2012-02-18
-phone: 
+phone: (202) 224-3441
+never: 
 twitter: SenatorCantwell
 ---

@@ -6,6 +6,7 @@ party: republican
 state: south carolina
 type: senator
 lasthall: 2017-02-25
-phone: 
+phone: (202) 224-6121
+never: 
 twitter: SenatorTimScott
 ---

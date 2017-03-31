@@ -6,6 +6,7 @@ party: republican
 state: west virginia
 type: senator
 lasthall: 2016-10-13
-phone: 
+phone: (202) 224-6472
+never: 
 twitter: SenCapito
 ---

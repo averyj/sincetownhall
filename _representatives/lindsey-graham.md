@@ -6,6 +6,7 @@ party: republican
 state: south carolina
 type: senator
 lasthall: 2010-01-12
-phone: 
+phone: (202) 224-5972
+never: 
 twitter: GrahamBlog
 ---

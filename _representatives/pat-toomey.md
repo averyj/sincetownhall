@@ -6,6 +6,7 @@ party: republican
 state: pennsylvania
 type: senator
 lasthall: 2014-08-05
-phone: 
+phone: (202) 224-4254
+never: 
 twitter: SenToomey
 ---

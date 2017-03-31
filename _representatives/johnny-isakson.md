@@ -6,6 +6,7 @@ party: republican
 state: georgia
 type: senator
 lasthall: 2016-09-30
-phone: 
+phone: (202) 224-3643
+never: 
 twitter: jiminhofe
 ---

@@ -6,6 +6,7 @@ party: republican
 state: louisiana
 type: senator
 lasthall: 2016-02-24
-phone: 
+phone: (202) 224-5824
+never: 
 twitter: BillCassidy
 ---

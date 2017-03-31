@@ -6,6 +6,7 @@ party: republican
 state: arizona
 type: senator
 lasthall: 2016-10-05
-phone: 
+phone: (202) 224-2235
+never: 
 twitter: SenJohnMcCain
 ---

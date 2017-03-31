@@ -2,10 +2,11 @@
 title: Mazie Hirono, Hawaii Senator
 name: Mazie Hirono
 avatar: /ui/img/avatars/Mazie_Hirono.jpg
-party: democratic
+party: democrat
 state: hawaii
 type: senator
 lasthall: 2015-04-02
-phone: 
+phone: (202) 224-6361
+never: 
 twitter: maziehirono
 ---

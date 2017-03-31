@@ -6,6 +6,7 @@ party: republican
 state: iowa
 type: senator
 lasthall: 2017-02-24
-phone: 
+phone: (202) 224-3744
+never: 
 twitter: ChuckGrassley
 ---

@@ -6,6 +6,7 @@ party: republican
 state: texas
 type: senator
 lasthall: 2013-08-20
-phone: 
+phone: (202) 224-5922
+never: 
 twitter: SenTedCruz
 ---

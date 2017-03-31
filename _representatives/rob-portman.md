@@ -6,6 +6,7 @@ party: republican
 state: ohio
 type: senator
 lasthall: 2016-01-31
-phone: 
+phone: (202) 224-3353
+never: 
 twitter: robportman
 ---

@@ -6,6 +6,7 @@ party: republican
 state: kansas
 type: senator
 lasthall: 2016-08-11
-phone: 
+phone: (202) 224-4774
+never: 
 twitter: SenPatRoberts
 ---

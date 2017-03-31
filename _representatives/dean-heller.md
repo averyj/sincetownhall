@@ -6,6 +6,7 @@ party: republican
 state: nevada
 type: senator
 lasthall: 2017-02-22
-phone: 
+phone: (202) 224-6244
+never: 
 twitter: SenDeanHeller
 ---

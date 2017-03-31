@@ -2,10 +2,11 @@
 title: Mark Warner, Virginia Senator
 name: Mark Warner
 avatar: /ui/img/avatars/Mark_Warner.jpg
-party: democratic
+party: democrat
 state: virginia
 type: senator
 lasthall: 2016-07-17
-phone: 
+phone: (202) 224-2023
+never: 
 twitter: MarkWarner
 ---

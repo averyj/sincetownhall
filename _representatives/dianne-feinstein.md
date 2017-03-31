@@ -2,10 +2,11 @@
 title: Dianne Feinstein, California Senator
 name: Dianne Feinstein
 avatar: /ui/img/avatars/Dianne_Feinstein.jpg
-party: democratic
+party: democrat
 state: california
 type: senator
-lasthall: 2010-01-01
-phone: 
+lasthall: 1992-11-10
+phone: (202) 224-3841
+never: TRUE
 twitter: SenFeinstein
 ---

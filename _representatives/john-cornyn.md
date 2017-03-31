@@ -6,6 +6,7 @@ party: republican
 state: texas
 type: senator
 lasthall: 2014-05-28
-phone: 
+phone: (202) 224-2934
+never: 
 twitter: JohnCornyn
 ---

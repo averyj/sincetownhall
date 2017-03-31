@@ -6,6 +6,7 @@ party: republican
 state: tennessee
 type: senator
 lasthall: 1996-02-14
-phone: 
+phone: (202) 224-4944
+never: 
 twitter: SenAlexander
 ---
