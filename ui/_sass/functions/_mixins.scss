@@ -22,8 +22,6 @@ $padding-h: 7.5%;
 @mixin font-size-largest(){ @include font-sizing($font-size-largest); @include large { @include font-sizing($font-size-largest-full); } }
 @mixin font-size-huge(){ @include font-sizing($font-size-huge); @include large { @include font-sizing($font-size-huge-full); } }
 
-html .serverbid, html.serverbid body { @include font-size-base; }
-
 @mixin placeholder-style($color, $style) {
   &::-webkit-input-placeholder { color: $color; font-style: $style; }
   &:-moz-placeholder { color: $color; font-style: $style; }

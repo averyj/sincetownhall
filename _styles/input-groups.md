@@ -12,7 +12,7 @@ section: forms
 </div>
 <div class="input-group margin-small-bottom">
 	<input class="form-control" placeholder="username" />
-	<span class="input-group-addon">@serverbid.com</span>
+	<span class="input-group-addon">@email.com</span>
 </div>
 <div class="input-group margin-small-bottom">
 	<span class="input-group-addon">$</span>
