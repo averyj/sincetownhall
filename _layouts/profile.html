@@ -34,11 +34,11 @@
 
 							<div class="text-center compact-margins">
 								{% if position == 'bottom' %}
-									<h1 class="h2">{{page.name}} hasn't held a town hall in {{diff}} days.</h1>
+									<h1 class="h3">{{page.name}} hasn't held a town hall in {{diff}} days.</h1>
 								{% else %}
-									<h1 class="h2">{{page.name}} held a town hall {{diff}} days ago.</h1>
+									<h1 class="h3">{{page.name}} held a town hall {{diff}} days ago.</h1>
 								{% endif %}
-								<p class="text-light text-italic text-large">That's in the {{position}} {{percentile}}% of the US Congress. <span data-large>Tell {{page.name}} what you think...</span></p>
+								<p class="text-light text-italic text-large">That's in the {{position}} {{percentile}}% of the US Congress. Tell {{page.name}} what you think...</p>
 							</div>
 
 						</section>
@@ -63,7 +63,6 @@
 						<section class="section">
 
 							<div class="text-center">
-								<p class="text-italic text-large text-light" data-small>Tell {{page.name}} what you think...</p>
 								<div class="btn-group">
 									{% if page.phone %}<a class="btn btn-green btn-icon-sm btn-sm" href="tel:+1{{page.phone | replace: '-',''}}"><i data-icon="phone"></i><span data-large>{{page.phone}}</span></a>{% endif %}
 									{% if page.twitter %}<a class="btn btn-blue btn-icon-sm btn-sm" href="https://twitter.com/{{page.twitter}}"><i data-icon="twitter"></i><span data-large>@{{page.twitter}}</span></a>{% endif %}
@@ -76,6 +75,9 @@
 									{% else %}
 										<a class="text-titlecase btn btn-link text-italic" href="{{site.baseurl}}/house">All House Members</a>
 									{% endif %}
+								</div>
+								<div>
+									{% include sharing.html %}
 								</div>
 							</div>
 

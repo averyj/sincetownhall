@@ -38,7 +38,7 @@
 
 	&:not(.btn-icon) {
 		[data-icon] {
-			&:not(.icon-end) { margin-right: .375em; }
+			&:not(.icon-end) { margin-right: .375em; margin-left: .375em; }
 			&.icon-end { margin-right: -5px; }
 		}
 	}

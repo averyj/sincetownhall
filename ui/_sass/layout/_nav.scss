@@ -26,7 +26,7 @@ $navheight: 80px;
 			}
 		}
 		.navigation-links {
-			padding-left: 1em;
+			padding-left: 1.5em;
 			text-align: right;
 			> ul { @include inlinelist; }
 			.btn-text { font-style: oblique; color: $light; }
