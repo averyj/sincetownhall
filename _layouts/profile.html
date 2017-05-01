@@ -38,7 +38,14 @@
 								{% else %}
 									<h1 class="h2">{{page.name}} held a town hall {{diff}} days ago.</h1>
 								{% endif %}
-								<p class="text-light text-italic text-large">That's in the {{position}} {{percentile}}% of the US Congress. <span data-large>Tell {{page.name}} what you think...</span></p>
+								<p class="text-light text-italic text-large">
+									{% if page.never %}
+										In fact, {{page.name}} has never held a town hall.
+									{% else %}
+										That's in the {{position}} {{percentile}}% of the US Congress.
+									{% endif %}
+									<span data-large>Tell {{page.name}} what you think...</span></p>
+								</p>
 							</div>
 
 						</section>
@@ -54,6 +61,7 @@
 									 state=page.state
 									 type=page.type
 									 lasthall=page.lasthall
+									 never=rep.never
 								%}
 
 							</div>
@@ -126,6 +134,7 @@
 											 type=rep.type
 											 lasthall=rep.lasthall
 											 link=rep.url
+											 never=rep.never
 										%}
 									{% endfor %}
 								</div>
