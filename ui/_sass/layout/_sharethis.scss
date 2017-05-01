@@ -1,7 +1,9 @@
 .sharethis-inline-share-buttons {
-	top: -2px;
+	top: -6px;
 	.st-btn {
-		margin-right: 0 !important;
-		margin-left: 16px !important;
+		margin: 0 6px !important;
+	}
+	.navigation & {
+		margin-left: 10px;
 	}
 }

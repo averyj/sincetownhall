@@ -17,9 +17,6 @@ function get_param(name) { var params = get_params(); return ( params[name] ) ? 
 
 // ------------------------------------ CLASSES ------------------------------------
 
-// adds modernizer classes to wrapper element
-$('div.serverbid').addClass($('html').attr('class')).removeClass('wf-loading wf-inactive');
-
 // adds specialty classes to body
 $(document).on('ready',function(){ $('html').addClass('ready'); });
 $(window).on('load',function(){ $('html').addClass('loaded'); });
@@ -34,6 +31,12 @@ if ( hash && tab.length && pane.length ) {
 	pane.addClass('active in').siblings('.tab-pane').removeClass('active in');
 	$("html, body").scrollTop( tab.closest('.nav-tabs').offset().top );
 }
+
+// ------------------------------------ PROTECTION ------------------------------------
+
+$(document).ready(function(){
+	$('.render-email').append('<a href="mailto:sincetownhall@gmail.com">sincetownhall@gmail.com</a>');
+});
 
 // ------------------------------------ ANCHORS ------------------------------------
 
@@ -94,3 +97,5 @@ loadHelper('validator.js','[data-toggle="validator"]','/ui/bootstrap-validator/d
 loadHelper('forms.js');
 
 async('//platform-api.sharethis.com/js/sharethis.js#property=58d984e4977f960011fb2907&product=inline-share-buttons');
+
+

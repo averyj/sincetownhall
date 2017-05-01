@@ -34,9 +34,9 @@
 
 							<div class="text-center compact-margins">
 								{% if position == 'bottom' %}
-									<h1 class="h2">{{page.name}} hasn't held a town hall in {{diff}} days.</h1>
+									<h1 class="h3">{{page.name}} hasn't held a town hall in {{diff}} days.</h1>
 								{% else %}
-									<h1 class="h2">{{page.name}} held a town hall {{diff}} days ago.</h1>
+									<h1 class="h3">{{page.name}} held a town hall {{diff}} days ago.</h1>
 								{% endif %}
 								<p class="text-light text-italic text-large">
 									{% if page.never %}
@@ -71,14 +71,18 @@
 						<section class="section">
 
 							<div class="text-center">
-								<p class="text-italic text-large text-light" data-small>Tell {{page.name}} what you think...</p>
-								<div class="btn-group">
-									{% if page.phone %}<a class="btn btn-green btn-icon-sm btn-sm" href="tel:+1{{page.phone | replace: '-',''}}"><i data-icon="phone"></i><span data-large>{{page.phone}}</span></a>{% endif %}
-									{% if page.twitter %}<a class="btn btn-blue btn-icon-sm btn-sm" href="https://twitter.com/{{page.twitter}}"><i data-icon="twitter"></i><span data-large>@{{page.twitter}}</span></a>{% endif %}
-									{% if page.facebook %}<a class="btn btn-navy btn-icon-sm btn-sm" href="https://facebook.com/{{page.facebook}}"><i data-icon="facebook-squared"></i><span data-large>{{page.name}}</span></a>{% endif %}
-								</div>
+								<!-- <div class="margin"> -->
+									<div class="btn-group">
+										{% if page.phone %}<a class="btn btn-green btn-icon-sm btn-sm" href="tel:+1{{page.phone | replace: '-',''}}"><i data-icon="phone"></i><span data-large>{{page.phone}}</span></a>{% endif %}
+										{% if page.twitter %}<a class="btn btn-blue btn-icon-sm btn-sm" href="https://twitter.com/{{page.twitter}}"><i data-icon="twitter"></i><span data-large>@{{page.twitter}}</span></a>{% endif %}
+										{% if page.facebook %}<a class="btn btn-navy btn-icon-sm btn-sm" href="https://facebook.com/{{page.facebook}}"><i data-icon="facebook-squared"></i><span data-large>{{page.name}}</span></a>{% endif %}
+									</div>
+								<!-- </div> -->
+								<!-- <div class="margin-top">
+									{% include sharing.html %}
+								</div> -->
 								<div>
-									<a class="text-titlecase btn btn-link text-italic" href="{{site.baseurl}}/states/{{page.state | replace: ' ','-' }}">{{page.state}}</a>
+									<a class="text-titlecase btn btn-link text-italic" href="{{site.baseurl}}/states/{{page.state | replace: ' ','-' }}">View {% if page.type == 'senator' %}Senators{% else %}Representatives{% endif %} from {{page.state}}</a>
 									{% if page.type == 'senator' %}
 										<a class="text-titlecase btn btn-link text-italic" href="{{site.baseurl}}/senate">All Senators</a>
 									{% else %}
