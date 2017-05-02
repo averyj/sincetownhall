@@ -5,7 +5,7 @@ avatar: /ui/img/avatars/Dick_Durbin.jpg
 party: democrat
 state: illinois
 type: senator
-lasthall: 1997-01-07
+lasthall: 2017-04-22
 phone: (202) 224-2152
 never: TRUE
 twitter: SenatorDurbin
