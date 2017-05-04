@@ -1,7 +1,7 @@
 ---
 title: Bob Casey Jr., Pennsylvania Senator
 name: Bob Casey Jr.
-avatar: /ui/img/avatars/Bob_Casey_Jr..jpg
+avatar: /ui/img/avatars/Bob_Casey_Jr.jpg
 party: democrat
 state: pennsylvania
 type: senator
