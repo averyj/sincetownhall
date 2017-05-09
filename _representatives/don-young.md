@@ -5,8 +5,8 @@ avatar: /ui/img/avatars/Don_Young.jpg
 party: republican
 state: alaska
 type: congressperson
-lasthall: 1973-03-06
+lasthall: 2011-03-28
 phone: 202-225-5765
-never: TRUE
+never: 
 twitter: repdonyoung
 ---
