@@ -4,10 +4,10 @@ clean:
 	rm -rf _site
 
 build:
-	bundle exec jekyll build --incremental
+	bundle exec jekyll build
 
 serve: 
-	bundle exec jekyll serve --incremental
+	bundle exec jekyll serve
 
 deploy-test: build
 	s3cmd sync --delete-removed _site/ s3://sincetownhall-test --add-header='Cache-Control: public, max-age=300' --acl-public

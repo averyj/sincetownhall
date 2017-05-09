@@ -5,14 +5,17 @@
 		{% include options/meta.html %}
 		{% include options/styles.html %}
 		{% include options/scripts.html %}
+		{% assign dateStart = page.lasthall | date: '%s' %}
+    {% assign nowTimestamp = 'now' | date: '%s' %}
+    {% assign diffSeconds = nowTimestamp | minus: dateStart %}
+    {% assign diff = diffSeconds | divided_by: 3600 | divided_by: 24 %}
+		<meta property="og:title" content="It has been {{diff}} days since {{ page.name }} has held a town hall @{{page.twitter}} @sincetownhall" />
 	</head>
 	<body>
 		<header class="header">
 			{% include content/nav.html %}
 		</header>
 		
-
-		{% capture diff %}{% include diff.html date=page.lasthall %}{% endcapture %}
 		{% capture percentile %}{% include percentile.html date=page.lasthall %}{% endcapture %}
 		{% assign percentile = percentile | plus: 0 %}
 		{% if percentile < 50 %}
@@ -33,7 +36,7 @@
 						<section class="section">
 
 							<div class="text-center compact-margins">
-								{% if position == 'bottom' %}
+								{% if position == 'bottom' or page.never %}
 									<h1 class="h3">{{page.name}} hasn't held a town hall in {{diff}} days.</h1>
 								{% else %}
 									<h1 class="h3">{{page.name}} held a town hall {{diff}} days ago.</h1>
@@ -74,7 +77,7 @@
 								<!-- <div class="margin"> -->
 									<div class="btn-group">
 										{% if page.phone %}<a class="btn btn-green btn-icon-sm btn-sm" href="tel:+1{{page.phone | replace: '-',''}}"><i data-icon="phone"></i><span data-large>{{page.phone}}</span></a>{% endif %}
-										{% if page.twitter %}<a class="btn btn-blue btn-icon-sm btn-sm" href="https://twitter.com/{{page.twitter}}"><i data-icon="twitter"></i><span data-large>@{{page.twitter}}</span></a>{% endif %}
+										{% if page.twitter %}<a class="btn btn-blue btn-icon-sm btn-sm" href="https://twitter.com/intent/tweet?text=@{{page.twitter}}%20It%20has%20been%20{{diff}}%20days%20without%20a%20%20town%20hall!%20{{site.url}}{{ page.url }}%20@sincetownhall"><i data-icon="twitter"></i><span data-large>@{{page.twitter}}</span></a>{% endif %}
 										{% if page.facebook %}<a class="btn btn-navy btn-icon-sm btn-sm" href="https://facebook.com/{{page.facebook}}"><i data-icon="facebook-squared"></i><span data-large>{{page.name}}</span></a>{% endif %}
 									</div>
 								<!-- </div> -->

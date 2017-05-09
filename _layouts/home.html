@@ -5,6 +5,7 @@
 		{% include options/meta.html %}
 		{% include options/styles.html %}
 		{% include options/scripts.html %}
+		<meta property="og:title" content="When did your representative last hold a town hall? @sincetownhall" />
 	</head>
 	<body>
 		<header class="header">
@@ -56,12 +57,12 @@
 					<div class="col-md-12">
 						<div class="text-center">
 
-							{% assign reps = site.representatives | sort: 'lasthall' | limit: 20 %}
+							{% assign reps = site.representatives | sort: 'lasthall'%}
 							
 							{% capture repcount %}{{ reps | size }}{% endcapture %}
 
 							<div class="cards">
-								{% for rep in reps %}
+								{% for rep in reps limit:50 %}
 									{% include card.html 
 										 name=rep.name
 										 avatar=rep.avatar
