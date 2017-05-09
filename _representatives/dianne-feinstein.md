@@ -7,6 +7,6 @@ state: california
 type: senator
 lasthall: 2017-04-22
 phone: (202) 224-3841
-never: TRUE
+never: 
 twitter: SenFeinstein
 ---
