@@ -5,8 +5,8 @@ avatar: /ui/img/avatars/Joseph_Crowley.jpg
 party: democrat
 state: new-york
 type: congressperson
-lasthall: 1999-01-03
+lasthall: 2014-03-12
 phone: 202-225-3965
-never: TRUE
+never:
 twitter: repjoecrowley
 ---

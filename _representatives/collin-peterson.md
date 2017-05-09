@@ -5,8 +5,8 @@ avatar: /ui/img/avatars/Collin_Peterson.jpg
 party: democrat
 state: minnesota
 type: congressperson
-lasthall: 1991-01-03
+lasthall: 2017-04-11
 phone: 202-225-2165
-never: TRUE
+never: 
 twitter: collinpeterson
 ---

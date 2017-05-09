@@ -5,8 +5,8 @@ avatar: /ui/img/avatars/Elijah_Cummings.jpg
 party: democrat
 state: maryland
 type: congressperson
-lasthall: 1996-04-16
+lasthall: 2011-03-28
 phone: 202-225-2464
-never: TRUE
+never: 
 twitter: ElijahECummings
 ---

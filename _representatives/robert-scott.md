@@ -5,8 +5,8 @@ avatar: /ui/img/avatars/Robert_Scott.jpg
 party: democrat
 state: virginia
 type: congressperson
-lasthall: 1993-01-03
+lasthall: 2017-02-25
 phone: 202-225-8351
-never: TRUE
+never:
 twitter: BobbyScott
 ---

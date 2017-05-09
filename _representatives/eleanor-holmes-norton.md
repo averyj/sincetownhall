@@ -5,8 +5,8 @@ avatar: /ui/img/avatars/Eleanor_Holmes_Norton.jpg
 party: democrat
 state: district-of-columbia
 type: congressperson
-lasthall: 1991-01-03
+lasthall: 2016-11-01
 phone: 202-225-4741
-never: TRUE
+never: 
 twitter: EleanorNorton
 ---

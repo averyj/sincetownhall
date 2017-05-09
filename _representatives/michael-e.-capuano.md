@@ -5,8 +5,8 @@ avatar: /ui/img/avatars/Michael_Capuano.jpg
 party: democrat
 state: massachusetts
 type: congressperson
-lasthall: 1999-01-03
+lasthall: 2017-03-17
 phone: 202-225-5111
-never: TRUE
+never:
 twitter: RepCapuano
 ---

@@ -5,8 +5,8 @@ avatar: /ui/img/avatars/Grace_Napolitano.jpg
 party: democrat
 state: california
 type: congressperson
-lasthall: 1999-01-03
+lasthall: 2017-04-14
 phone: 202-225-5256
-never: TRUE
+never:
 twitter: gracenapolitano
 ---

@@ -5,8 +5,8 @@ avatar: /ui/img/avatars/Bennie_Thompson.jpg
 party: democrat
 state: mississippi
 type: congressperson
-lasthall: 1993-04-13
+lasthall: 2004-07-01
 phone: 202-225-5876
-never: TRUE
+never:
 twitter: HomelandDems
 ---

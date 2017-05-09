@@ -5,8 +5,8 @@ avatar: /ui/img/avatars/Lloyd_Doggett.jpg
 party: democrat
 state: texas
 type: congressperson
-lasthall: 1995-01-03
+lasthall: 2017-03-05
 phone: 202-225-4865
-never: TRUE
+never:
 twitter: LloydDoggettTX
 ---

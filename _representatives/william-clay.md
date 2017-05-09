@@ -5,8 +5,8 @@ avatar: /ui/img/avatars/William_Clay.jpg
 party: democrat
 state: missouri
 type: congressperson
-lasthall: 2001-01-03
+lasthall: 2017-04-14
 phone: 202-225-3111
-never: TRUE
+never:
 twitter: LacyClayMO1
 ---
