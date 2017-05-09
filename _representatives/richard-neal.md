@@ -5,8 +5,8 @@ avatar: /ui/img/avatars/Richard_Neal.jpg
 party: democrat
 state: massachusetts
 type: congressperson
-lasthall: 1989-01-03
+lasthall: 2017-04-01
 phone: 202-225-5601
-never: TRUE
+never: 
 twitter: RepRichardNeal
 ---
