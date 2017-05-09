@@ -5,7 +5,7 @@ avatar: /ui/img/avatars/Terri_Sewell.jpg
 party: democrat
 state: alabama
 type: congressperson
-lasthall: 2017-02-24
+lasthall: 2017-05-08
 phone: 202-225-2665
 never: 
 twitter: RepTerriSewell

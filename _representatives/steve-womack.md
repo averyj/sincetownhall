@@ -5,7 +5,7 @@ avatar: /ui/img/avatars/Steve_Womack.jpg
 party: republican
 state: arkansas
 type: congressperson
-lasthall: 2017-04-12
+lasthall: 2017-05-08
 phone: 202-225-4301
 never: 
 twitter: rep_stevewomack

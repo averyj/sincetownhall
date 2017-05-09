@@ -1,6 +1,6 @@
 ---
-title: Harold Rogers, Kentucky Congressperson
-name: Harold Rogers
+title: Hal Rogers, Kentucky Congressperson
+name: Hal Rogers
 avatar: /ui/img/avatars/Harold_Rogers.jpg
 party: republican
 state: kentucky
