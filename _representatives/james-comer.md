@@ -5,7 +5,7 @@ avatar: /ui/img/avatars/James_Comer.jpg
 party: republican
 state: kentucky
 type: congressperson
-lasthall: 2017-03-24
+lasthall: 2017-05-10
 phone: 202-225-3115
 never: 
 twitter: KYComer
