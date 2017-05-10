@@ -5,7 +5,7 @@ avatar: /ui/img/avatars/Daniel_Lipinski.jpg
 party: democrat
 state: illinois
 type: congressperson
-lasthall: 2017-01-09
+lasthall: 2017-05-09
 phone: 202-225-5701
 never: 
 twitter: RepLipinski

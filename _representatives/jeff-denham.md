@@ -5,7 +5,7 @@ avatar: /ui/img/avatars/Jeff_Denham.jpg
 party: republican
 state: california
 type: congressperson
-lasthall: 2017-04-22
+lasthall: 2017-05-09
 phone: 202-225-4540
 never: 
 twitter: RepJeffDenham
