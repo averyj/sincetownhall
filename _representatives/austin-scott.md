@@ -5,8 +5,8 @@ avatar: /ui/img/avatars/Austin_Scott.jpg
 party: republican
 state: georgia
 type: congressperson
-lasthall: 2011-01-03
+lasthall: 2011-09-30
 phone: 202-225-6531
-never: TRUE
+never:
 twitter: AustinScottGA08
 ---

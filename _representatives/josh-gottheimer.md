@@ -5,8 +5,8 @@ avatar: /ui/img/avatars/Josh_Gottheimer.jpg
 party: democrat
 state: new-jersey
 type: congressperson
-lasthall: 2017-01-03
+lasthall: 2016-10-05
 phone: 202-225-4465
-never: TRUE
+never:
 twitter: RepJoshG
 ---

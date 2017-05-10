@@ -5,8 +5,8 @@ avatar: /ui/img/avatars/Darin_LaHood.jpg
 party: republican
 state: illinois
 type: congressperson
-lasthall: 2015-09-10
+lasthall: 2017-04-19
 phone: 202-225-6201
-never: TRUE
+never:
 twitter: RepLaHood
 ---

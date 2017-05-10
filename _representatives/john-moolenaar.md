@@ -5,8 +5,8 @@ avatar: /ui/img/avatars/John_Moolenaar.jpg
 party: republican
 state: michigan
 type: congressperson
-lasthall: 2015-01-03
+lasthall: 2017-04-20
 phone: 202-225-3561
-never: TRUE
+never:
 twitter: RepMoolenaar
 ---

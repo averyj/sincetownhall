@@ -7,6 +7,6 @@ state: massachusetts
 type: senator
 lasthall: 2017-04-13
 phone: (202) 224-4543
-never: TRUE
+never:
 twitter: SenWarren
 ---

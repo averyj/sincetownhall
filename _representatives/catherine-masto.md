@@ -5,8 +5,8 @@ avatar: /ui/img/avatars/Catherine_Masto.jpg
 party: democrat
 state: nevada
 type: senator
-lasthall: 2017-01-03
+lasthall: 2017-04-22
 phone: (202) 224-3542
-never: TRUE
+never:
 twitter: CatherineForNV
 ---

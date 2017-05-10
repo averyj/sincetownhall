@@ -5,8 +5,8 @@ avatar: /ui/img/avatars/Mark_Walker.jpg
 party: republican
 state: north-carolina
 type: congressperson
-lasthall: 2015-01-03
+lasthall: 2015-04-02
 phone: 202-225-3065
-never: TRUE
+never:
 twitter: RepMarkWalker
 ---

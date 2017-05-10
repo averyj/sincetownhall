@@ -5,8 +5,8 @@ avatar: /ui/img/avatars/Ed_Perlmutter.jpg
 party: democrat
 state: colorado
 type: congressperson
-lasthall: 2007-01-03
+lasthall: 2008-02-08
 phone: 202-225-2645
-never: TRUE
+never:
 twitter: RepPerlmutter
 ---

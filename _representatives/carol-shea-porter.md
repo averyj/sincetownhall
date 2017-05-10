@@ -5,8 +5,8 @@ avatar: /ui/img/avatars/Carol_Shea-Porter.jpg
 party: democrat
 state: new-hampshire
 type: congressperson
-lasthall: 2017-01-03
+lasthall: 2014-01-11
 phone: 202-225-5456
-never: TRUE
+never:
 twitter: RepSheaPorter
 ---

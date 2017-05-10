@@ -5,8 +5,8 @@ avatar: /ui/img/avatars/Donald_Payne_Jr.png
 party: democrat
 state: new-jersey
 type: congressperson
-lasthall: 2012-11-06
+lasthall: 2017-02-23
 phone: 202-225-6501
-never: TRUE
+never:
 twitter: DonaldPayneJr
 ---

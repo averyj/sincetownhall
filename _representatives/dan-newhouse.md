@@ -5,8 +5,8 @@ avatar: /ui/img/avatars/Dan_Newhouse.jpg
 party: republican
 state: washington
 type: congressperson
-lasthall: 2015-01-03
+lasthall: 2017-04-13
 phone: 202-225-5816
-never: TRUE
+never:
 twitter: RepNewhouse
 ---

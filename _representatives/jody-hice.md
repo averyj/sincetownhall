@@ -5,8 +5,8 @@ avatar: /ui/img/avatars/Jody_Hice.jpg
 party: republican
 state: georgia
 type: congressperson
-lasthall: 2015-01-03
+lasthall: 2015-05-05
 phone: 202-225-4101
-never: TRUE
+never:
 twitter: CongressmanHice
 ---

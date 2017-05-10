@@ -5,8 +5,8 @@ avatar: /ui/img/avatars/Brett_Guthrie.jpg
 party: republican
 state: kentucky
 type: congressperson
-lasthall: 2009-01-03
+lasthall: 2016-08-11
 phone: 202-225-3501
-never: TRUE
+never:
 twitter: RepGuthrie
 ---

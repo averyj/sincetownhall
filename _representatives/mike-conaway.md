@@ -5,8 +5,8 @@ avatar: /ui/img/avatars/Mike_Conaway.jpg
 party: republican
 state: texas
 type: congressperson
-lasthall: 2005-01-03
+lasthall: 2017-04-13
 phone: 202-225-3605
-never: TRUE
+never:
 twitter: ConawayTX11
 ---

@@ -5,8 +5,8 @@ avatar: /ui/img/avatars/Thomas_Suozzi.jpg
 party: democrat
 state: new-york
 type: congressperson
-lasthall: 2017-01-03
+lasthall: 2017-02-23
 phone: 202-225-3335
-never: TRUE
+never: 
 twitter: RepTomSuozzi
 ---

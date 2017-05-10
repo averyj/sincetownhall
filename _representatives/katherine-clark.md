@@ -5,8 +5,8 @@ avatar: /ui/img/avatars/Katherine_Clark.jpg
 party: democrat
 state: massachusetts
 type: congressperson
-lasthall: 2013-12-10
+lasthall: 2017-03-18
 phone: 202-225-2836
-never: TRUE
+never:
 twitter: RepKClark
 ---

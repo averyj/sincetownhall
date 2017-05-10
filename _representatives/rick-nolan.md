@@ -5,8 +5,8 @@ avatar: /ui/img/avatars/Rick_Nolan.jpg
 party: democrat
 state: minnesota
 type: congressperson
-lasthall: 2013-01-03
+lasthall: 2017-04-13
 phone: 202-225-6211
-never: TRUE
+never:
 twitter: usrepricknolan
 ---

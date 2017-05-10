@@ -5,8 +5,8 @@ avatar: /ui/img/avatars/Jim_Cooper.jpg
 party: democrat
 state: tennessee
 type: congressperson
-lasthall: 2003-01-03
+lasthall: 2017-03-03
 phone: 202-225-4311
-never: TRUE
+never:
 twitter: repjimcooper
 ---

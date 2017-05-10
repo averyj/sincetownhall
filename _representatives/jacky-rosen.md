@@ -5,8 +5,8 @@ avatar: /ui/img/avatars/Jacky_Rosen.jpg
 party: democrat
 state: nevada
 type: congressperson
-lasthall: 2017-01-03
+lasthall: 2017-05-01
 phone: 202-225-3252
-never: TRUE
+never:
 twitter: RepJackyRosen
 ---

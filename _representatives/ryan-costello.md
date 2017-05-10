@@ -5,8 +5,8 @@ avatar: /ui/img/avatars/Ryan_Costello.jpg
 party: republican
 state: pennsylvania
 type: congressperson
-lasthall: 2015-01-03
+lasthall: 2017-04-08
 phone: 202-225-4315
-never: TRUE
+never: 
 twitter: RepRyanCostello
 ---

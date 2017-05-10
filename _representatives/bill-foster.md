@@ -5,8 +5,8 @@ avatar: /ui/img/avatars/Bill_Foster.jpg
 party: democrat
 state: illinois
 type: congressperson
-lasthall: 2013-01-03
+lasthall: 2017-04-10
 phone: 202-225-3515
-never: TRUE
+never:
 twitter: RepBillFoster
 ---

@@ -5,8 +5,8 @@ avatar: /ui/img/avatars/Brad_Wenstrup.jpg
 party: republican
 state: ohio
 type: congressperson
-lasthall: 2013-01-03
+lasthall: 2013-06-29
 phone: 202-225-3164
-never: TRUE
+never:
 twitter: bradwenstrup
 ---

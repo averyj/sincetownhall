@@ -5,8 +5,8 @@ avatar: /ui/img/avatars/Diane_Black.jpg
 party: republican
 state: tennessee
 type: congressperson
-lasthall: 2011-01-03
+lasthall: 2017-02-10
 phone: 202-225-4231
-never: TRUE
+never:
 twitter: DianeBlack4Rep
 ---

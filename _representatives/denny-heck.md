@@ -5,8 +5,8 @@ avatar: /ui/img/avatars/Denny_Heck.jpg
 party: democrat
 state: washington
 type: congressperson
-lasthall: 2013-01-03
+lasthall: 2017-05-11
 phone: 202-225-9740
-never: TRUE
+never:
 twitter: RepDennyHeck
 ---

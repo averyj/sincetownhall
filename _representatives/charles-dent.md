@@ -5,8 +5,8 @@ avatar: /ui/img/avatars/Charles_Dent.jpg
 party: republican
 state: pennsylvania
 type: congressperson
-lasthall: 2005-01-03
+lasthall: 2017-03-31
 phone: 202-225-3765
-never: TRUE
+never:
 twitter: DentforCongress
 ---

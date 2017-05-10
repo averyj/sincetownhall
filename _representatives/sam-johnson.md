@@ -5,8 +5,8 @@ avatar: /ui/img/avatars/Sam_Johnson.jpg
 party: republican
 state: texas
 type: congressperson
-lasthall: 1991-05-08
+lasthall: 2005-03-07
 phone: 202-225-4201
-never: TRUE
+never: 
 twitter: SamsPressShop
 ---

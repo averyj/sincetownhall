@@ -5,8 +5,8 @@ avatar: /ui/img/avatars/Walter_Jones.jpg
 party: republican
 state: north-carolina
 type: congressperson
-lasthall: 1995-01-03
+lasthall: 2012-02-20
 phone: 202-225-3415
-never: TRUE
+never:
 twitter: RepWalterJones
 ---

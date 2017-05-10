@@ -5,8 +5,8 @@ avatar: /ui/img/avatars/Cedric_Richmond.jpg
 party: democrat
 state: louisiana
 type: congressperson
-lasthall: 2011-01-03
+lasthall: 2013-04-30
 phone: 202-225-6636
-never: TRUE
+never:
 twitter: RepRichmond
 ---
