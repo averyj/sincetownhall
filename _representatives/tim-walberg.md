@@ -5,7 +5,7 @@ avatar: /ui/img/avatars/Tim_Walberg.jpg
 party: republican
 state: michigan
 type: congressperson
-lasthall: 2014-04-24
+lasthall: 2017-05-11
 phone: 202-225-6276
 never: 
 twitter: RepWalberg
