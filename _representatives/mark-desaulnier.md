@@ -5,7 +5,7 @@ avatar: /ui/img/avatars/Mark_DeSaulnier.jpg
 party: democrat
 state: california
 type: congressperson
-lasthall: 2017-02-23
+lasthall: 2017-05-11
 phone: 202-225-2095
 never: 
 twitter: RepDeSaulnier
