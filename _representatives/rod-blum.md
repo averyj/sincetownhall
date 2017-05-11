@@ -5,7 +5,7 @@ avatar: /ui/img/avatars/Rod_Blum.jpg
 party: republican
 state: iowa
 type: congressperson
-lasthall: 2017-05-10
+lasthall: 2017-05-11
 phone: 202-225-2911
 never: 
 twitter: RepRodBlum
