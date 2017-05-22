@@ -5,8 +5,8 @@ avatar: /ui/img/avatars/Daniel_Sullivan.jpg
 party: republican
 state: alaska
 type: senator
-lasthall: 2015-01-06
+lasthall: 2017-05-20
 phone: (202) 224-3004
-never: TRUE
+never: 
 twitter: SenDanSullivan ‏
 ---
