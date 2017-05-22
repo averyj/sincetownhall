@@ -5,7 +5,7 @@ avatar: /ui/img/avatars/Henry_Johnson.jpg
 party: democrat
 state: georgia
 type: congressperson
-lasthall: 2009-09-11
+lasthall: 2017-05-10
 phone: 202-225-1605
 never: 
 twitter: HankJohnsonNews
