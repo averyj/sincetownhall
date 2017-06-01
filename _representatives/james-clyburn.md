@@ -5,7 +5,7 @@ avatar: /ui/img/avatars/James_Clyburn.jpg
 party: democrat
 state: south-carolina
 type: congressperson
-lasthall: 2014-09-02
+lasthall: 2017-06-01
 phone: 202-225-3315
 never: 
 twitter: Clyburn
