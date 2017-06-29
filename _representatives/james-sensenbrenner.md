@@ -5,7 +5,7 @@ avatar: /ui/img/avatars/James_Sensenbrenner.jpg
 party: republican
 state: wisconsin
 type: congressperson
-lasthall: 2017-03-04
+lasthall: 2017-05-21
 phone: 202-225-5101
 never: 
 twitter: JimPressOffice
