@@ -5,7 +5,7 @@ avatar: /ui/img/avatars/Alma_Adams.jpg
 party: democrat
 state: north-carolina
 type: congressperson
-lasthall: 2017-05-08
+lasthall: 2017-05-11
 phone: 202-225-1510
 never: 
 twitter: RepAdamSchiff
