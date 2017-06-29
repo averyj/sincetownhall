@@ -5,7 +5,7 @@ avatar: /ui/img/avatars/Michael_Bennet.jpg
 party: democrat
 state: colorado
 type: senator
-lasthall: 2014-08-07
+lasthall: 2017-06-09
 phone: (202) 224-5852
 never: 
 twitter: SenBennetCO
