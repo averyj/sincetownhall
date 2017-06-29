@@ -5,7 +5,7 @@ avatar: /ui/img/avatars/Gerald_Connolly.jpg
 party: democrat
 state: virginia
 type: congressperson
-lasthall: 2009-01-03
+lasthall: 2017-06-19
 phone: 202-225-1492
 never: TRUE
 twitter: RepConnolly
