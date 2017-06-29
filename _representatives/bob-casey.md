@@ -5,7 +5,7 @@ avatar: /ui/img/avatars/Bob_Casey_Jr.jpg
 party: democrat
 state: pennsylvania
 type: senator
-lasthall: 2011-10-17
+lasthall: 2017-06-24
 phone: (202) 224-6324
 never: 
 twitter: SenBobCasey
